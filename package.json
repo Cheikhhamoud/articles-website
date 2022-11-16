@@ -4,11 +4,26 @@
     "dotenv": "^16.0.3",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
+    "helmet": "^6.0.0",
     "livereload": "^0.9.3",
     "mongoose": "^6.0.5"
   },
   "scripts": {
     "start": "node app.js",
     "watch": "nodemon --ext js,ejs --ignore public"
+  },
+  "name": "web-erticles",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheikhhamoud/myportfolio.git"
+  },
+  "author": "Hamoud",
+  "license": "ISC",
+  "description": "",
+  "engines":{
+    "node":"v16.16.0"
   }
 }

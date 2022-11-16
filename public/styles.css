@@ -68,6 +68,10 @@
     justify-content: space-around;
     padding-bottom: 20px;
   }
+  .myheader h1 a{
+    cursor: pointer;
+
+  }
   
   .parent li a {
     color: #fff;
